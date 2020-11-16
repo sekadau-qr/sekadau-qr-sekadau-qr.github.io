@@ -1,0 +1,349 @@
+body {
+	margin-top: 5%;
+	padding-bottom: 60px;
+	font-family: 'Arial', sans-serif;
+}
+.border{
+border-top:3px solid #66afe9;
+margin:1px auto 10px auto;
+}
+.container {
+	max-width: 860px;
+}
+.halamanabout{
+	margin-top: 6%;
+	max-width: 650px;
+	font-size: 13px;
+}
+.halamanlogin{
+	margin-top: -1%;
+	max-width: 950px;
+	font-size: 13px;
+}
+.halamanstatus{
+	margin-top: -1%;
+	max-width: 900px;
+	font-size: 13px;
+}
+.halamanlogout{
+	margin-top: -1%;
+	max-width: 865px;
+	font-size: 13px;
+}
+.halamaniklan{
+	margin-top: 5%;
+	max-width: 650px;
+	font-size: 13px;
+}
+.halamanfaq{
+	margin-top: -2%;
+	max-width: 650px;
+	font-size: 13px;
+}
+.halamaninformasi{
+	margin-top: -3%;
+	max-width: 650px;
+	font-size: 13px;
+}
+.halamanvoucher{
+	margin-top: 3%;
+	max-width: 900px;
+	font-size: 13px;
+}
+.halamaninternet{
+	margin-top: 3%;
+	max-width: 900px;
+	font-size: 13px;
+}
+.wrapper {
+	background: #FFF;
+	border: 4px solid rgba(10, 108, 255, 0.3);
+	border-radius: 8px;
+	margin:-1px;
+	font-size: 15px;
+	
+	-moz-background-clip: border;     /* Firefox 3.6 */
+	-webkit-background-clip: border;  /* Safari 4? Chrome 6? */
+	background-clip: border-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+
+	-moz-background-clip: padding;     /* Firefox 3.6 */
+	-webkit-background-clip: padding;  /* Safari 4? Chrome 6? */
+	background-clip: padding-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+
+	-moz-background-clip: content;     /* Firefox 3.6 */
+	-webkit-background-clip: content;  /* Safari 4? Chrome 6? */
+	background-clip: content-box; 
+
+}
+.bg-eee{background-color: #EEE;}
+.p15{padding-top:15px;}
+.form-control {
+    border-radius: 3px;
+	text-align: center;
+    margin-bottom: 1px;
+}
+.login {
+	margin: 0px;
+}
+.login > h3 {
+	color: #2196F3;
+	margin-bottom: 0px;
+}
+.login > form > .checkbox {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.alert {
+    padding: 7px;
+}
+.alert1{
+    padding: 5px;
+	font-size: 21px;
+	text-align: justify;
+}
+.btn-inline{
+width: 49%;
+
+}
+.btn-primary {
+    color: #fff;
+	font-weight: bold;
+	margin-bottom: 10px;
+    background-color: #0dbbdb;
+    border-color: #0dbbdb;
+    margin-top: 8px;
+}
+.btn-block2 {
+    display: block;
+    width: 100% !important;
+}
+.disabled {
+    color: #cccccc !important;
+    font-weight: bold;
+    margin-bottom: 17px;
+    background-color: #fff;
+    border-color: #cccccc !important;
+}
+.btn-default {
+    color: #FFC107;
+	font-weight: bold;
+	margin-bottom: 5px;
+    background-color: #fff;
+    border-color: #FFC107;
+}
+label {
+    font-weight: 400;
+}
+.navbar {
+	font-family: 'Roboto', sans-serif;
+}
+.navbar-brand {
+    padding: 6px 15px;
+}
+.navbar-nav {
+    text-align: right;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #00c0ff;
+    background-color: #f8f8f8;
+}
+.navbar-toggle {
+  border: none;
+  background: transparent !important;
+  margin-right: 10px;
+}
+.navbar-toggle:hover {
+  background: transparent !important;
+}
+.navbar-toggle .icon-bar {
+  width: 22px;
+  transition: all 0.2s;
+}
+.navbar-toggle .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+.navbar-toggle .middle-bar {
+  opacity: 0;
+}
+.navbar-toggle .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+.navbar-toggle.collapsed .top-bar {
+  transform: rotate(0);
+}
+.navbar-toggle.collapsed .middle-bar {
+  opacity: 1;
+}
+.navbar-toggle.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+.img{
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+.copy{
+	margin: 3px 0px 15px 0px;
+	font-size: 11px;
+	color: #999;
+}
+.thumbnail
+{
+    margin-bottom: 20px;
+    padding: 0px;
+}
+.item {
+	border-radius: 4px;
+}
+
+.item .col-price{
+	border-top: 1px solid #ddd; font-size: 20px;	
+}
+.item .col-price .price{
+	float: left; width: 70%; padding: 5px; border-right: 1px solid #ddd;
+}
+.item .col-price .cart {
+	padding: 5px;
+}
+.item .list-group-image {
+	margin-top: 10px;
+}
+.item .list-group-item
+{
+    float: none;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.item .list-group-item-heading {
+    color: #3CA6E2;
+}
+.item .list-group-item-text {
+	font-size: 80%;
+}
+.running-text{
+background: transparent;
+margin: 2px 10px 1px ;
+padding:1px 8px 1px 8px;
+font-size:11px;
+color:#888888;
+}
+.faq{
+padding: 10px 10px;
+}
+.faq h3{
+font-size: 14px;
+color: #888888;
+padding-top: 0;
+padding-bottom: 1px;
+}
+.faq .panel{ /* silahkan custom kalau perlu */
+
+}
+.faq .panel-heading{ /* silahkan custom kalau perlu */
+
+}
+.faq .panel-body{ /* silahkan custom kalau perlu */
+font-size: 12px;
+}
+/* start style paket internet/voucher */
+h3.paket-title {
+font-size: 20px;
+color: #555555;
+text-align: center;
+margin: 0 auto 10px auto;
+text-transform: uppercase;
+}
+.paket{
+margin-bottom: 10px;
+}
+.paket .panel:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+}
+.bg-panel1{
+color:#ffffff;
+background-color:#888888 !important;
+}
+.border-panel1{
+border:2px solid #888888 !important;
+}
+.bg-panel2{
+color:#ffffff;
+background-color:#66afe9 !important;
+}
+.border-panel2{
+border:2px solid #66afe9 !important;
+}
+.bg-panel3{
+color:#ffffff;
+background-color:#ffac4d !important;
+}
+.border-panel3{
+border:2px solid #ffac4d !important;
+}
+.bg-panel4{
+color:#ffffff;
+background-color:#ff67ae !important;
+}
+.border-panel4{
+border:2px solid #ff67ae !important;
+}
+.bg-panel5{
+color:#ffffff;
+background-color:#b37dfe !important;
+}
+.border-panel5{
+border:2px solid #b37dfe !important;
+}
+.bg-panel6{
+color:#ffffff;
+background-color:#0dbbdb !important;
+}
+.border-panel6{
+border:2px solid #0dbbdb !important;
+}
+.harga {
+font-size: 2.5rem;
+font-weight: 300;
+}
+.masa-aktif {
+font-weight: 500;
+font-size: 1rem;
+}
+.masa-aktif::before {
+content: '/';
+margin-right: 2px;
+}
+.beli{
+min-width: 100px;
+margin-top:3px;
+}
+
+}
+.habis{
+min-width:100px;
+margin-top:3px;
+}
+/* end style paket internet/voucher */
+
+
+@media (min-width: 768px) {
+	.navbar {
+		min-height: 80px;
+	}
+	
+	.navbar-brand {
+		padding: 20px 15px;
+	}
+	
+	.navbar-nav>li>a {
+		margin-top: 15px;
+	}
+	
+	.img{
+		border-bottom-left-radius: 0px;
+		border-top-right-radius: 4px;
+		border-bottom-right-radius: 4px;
+	}
+}
